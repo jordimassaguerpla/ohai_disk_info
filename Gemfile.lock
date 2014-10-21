@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.6)
+    ffi-yajl (1.2.0)
+      ffi (~> 1.5)
+      libyajl2 (~> 1.0)
+    ipaddress (0.8.0)
+    libyajl2 (1.1.0)
+    mime-types (1.25.1)
+    mixlib-cli (1.5.0)
+    mixlib-config (2.1.0)
+    mixlib-log (1.6.0)
+    mixlib-shellout (1.6.0)
+    ohai (7.4.0)
+      ffi (~> 1.9)
+      ffi-yajl (~> 1.0)
+      ipaddress
+      mime-types (~> 1.16)
+      mixlib-cli
+      mixlib-config (~> 2.0)
+      mixlib-log
+      mixlib-shellout (~> 1.2)
+      systemu (~> 2.6.4)
+      wmi-lite (~> 1.0)
+    systemu (2.6.4)
+    wmi-lite (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ohai

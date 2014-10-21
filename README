@@ -8,6 +8,7 @@ Gathering detailed information about hardware in an automated way with chef usin
 How to test it
 --------------
 
+bundle install
 ruby run.rb
 
 Authors
