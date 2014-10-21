@@ -1,0 +1,21 @@
+This is a SUSE hackweek project
+https://hackweek.suse.com/11/projects/76
+
+ohai plugin for querying details like serial numbers from hard drives in chef-client nodes
+
+Gathering detailed information about hardware in an automated way with chef using an ohai plugin enhances transparency about the hardware being used in a datacenter. The idea is to write a plugin for ohai that gatheres information from hard drives used in a node that runs chef-client. This data can then be used to automatically query vendor warranty about hard drives, or even query details about usage time to predict failures or proactive order new drives when drives are getting out of warranty. There is lot of room for processing that information which will help to improve administration of an infrastructure in datacenters.
+
+How to test it
+--------------
+
+ruby run.rb
+
+Authors
+-------
+
+Shyukri Shyukriev <shshyukriev@suse.com>
+Jordi Massaguer Pla <jmassaguerpla@suse.de>
+
+
+
+
