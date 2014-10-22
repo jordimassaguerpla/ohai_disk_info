@@ -2,7 +2,7 @@ Ohai.plugin(:DiskStats) do
   provides 'disk_stats'
   collect_data(:linux) do
     disk_stats Mash.new
-    so = shell_out("iostat -d")
+    so = shell_out("iostat -d -k")
     parsing_dev = false
     so.stdout.lines do |line|
       next if line == "\n"
